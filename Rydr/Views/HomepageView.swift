@@ -61,7 +61,7 @@ struct HomepageView: View {
                                 .font(.subheadline)
                                 .foregroundStyle(.black.opacity(0.7))
 
-                            Text(String(format: "%.1f / %.0f", store.totalHours, goalHours))
+                            Text(String(format: "%.f / %.0f", store.totalHours, goalHours))
                                 .font(.title2)
                                 .foregroundStyle(.black)
 

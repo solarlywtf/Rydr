@@ -60,7 +60,6 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BEAF3702FBE83D000421E51"
             BuildableName = "Rydr Watch App.app"
-            BlueprintName = "Rydr Watch App"
             ReferencedContainer = "container:Rydr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -77,7 +76,6 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BEAF3702FBE83D000421E51"
             BuildableName = "Rydr Watch App.app"
-            BlueprintName = "Rydr Watch App"
             ReferencedContainer = "container:Rydr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

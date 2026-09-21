@@ -9,7 +9,7 @@ struct LogView: View {
             Color.white.ignoresSafeArea()
 
             ScrollView {
-                VStack(alignment: .leading, spacing: 20) {
+                VStack(alignment: .leading, spacing: 25) {
                     Text("Drive Log")
                         .font(.custom("Montserrat-ExtraBold", size: 28))
                         .foregroundStyle(.black)
@@ -67,6 +67,7 @@ struct LogView: View {
                         }
                     }
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.horizontal, 24)
                 .padding(.top, 24)
                 .padding(.bottom, 32)

@@ -52,6 +52,10 @@ final class DriveSessionStore: ObservableObject {
     }
 
     func addDrive(_ session: DriveSession) {
+        guard !sessions.contains(where: { $0.id == session.id }) else {
+            return
+        }
+
         sessions.insert(session, at: 0)
         saveDrives()
     }

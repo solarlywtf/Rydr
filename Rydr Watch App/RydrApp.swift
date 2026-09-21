@@ -1,14 +1,11 @@
-//
-//  RydrApp.swift
-//  Rydr Watch App
-//
-//  Created by Krishiv Patel on 5/20/26.
-//
-
 import SwiftUI
 
 @main
 struct RydrApp: App {
+    init() {
+        WatchDriveSyncManager.shared.start()
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
